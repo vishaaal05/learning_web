@@ -1,0 +1,32 @@
+
+.box {
+    
+    border: 2px solid red ;
+    padding: 10px;
+    margin: 10px;
+    height: 10vh;
+    width: 50%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* visibility:hidden; */
+    text-align: center;
+}
+
+.box1{
+    background-color: blueviolet;
+    /* position: static;
+   
+    top: 10px;
+    left: 260px; */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* @media (width:600px) {
+    .box{
+        background-color: black;
+    }
+} */
