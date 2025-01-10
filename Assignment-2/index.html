@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Content</title>
+    <style>
+        /* Reset browser default styles */
+        body, h1, p, img {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Centering content in the viewport */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        /* Styling the main container */
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            width: 500px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        /* Image inside the container */
+        .centered-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        /* Text inside the container */
+        .centered-text {
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #333;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image" class="centered-image">
+        <p class="centered-text">
+            This is a sample paragraph to demonstrate centered content using Flexbox.
+            It wraps properly when the text is long, ensuring a clean and responsive design.
+        </p>
+    </div>
+</body>
+
+</html>
+
